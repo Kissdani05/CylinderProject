@@ -1,0 +1,20 @@
+Az alábbi Cylinder osztály egy geometriai hengert reprezentál. 
+Készítsen az osztályhoz teszteseteket, amelyek az osztály metódusainak és tulajdonságainak helyes mûködését ellenõrzik!
+
+Tesztprojekt neve: CylinderTestCode
+
+1) Ellenõrizze, hogy a konstruktor helyesen állítja be a _radius és _height értékeket! (Assert.Equal)
+
+2) Tesztelje, hogy negatív vagy nulla radius és height esetén a konstruktor kivételt dob-e?! (Assert.Throws)
+
+3) Ellenõrizze, hogy a GetVolume és a GetSurfaceArea metódusok helyes értékeket adnak-e vissza! (Assert.Equal)
+
+4) Bizonyosodjon meg róla, hogy a Resize metódus frissíti a sugarat és a magasságot, illetve hibás értékek esetén kivételt dob-e?! (Assert.Equal, Assert.Throws)
+
+5) Ellenõrizze, hogy a létrehozott Cylinder objektum nem null! (Assert.NotNull)
+
+6) Gyõzõdjön meg arról, hogy a Radius értéke egy adott tartományon belül van-e (1<=?<=100) ! (Assert.InRange)
+
+Megjegyzés!
+a) A tesztek neve legyen beszédes, hogy a kód olvasásakor azonnal érthetõ legyen, mit ellenõriznek!
+b) Használjon megfelelõ kerekítést, ahol szükséges (pl. a térfogat és felszín ellenõrzésénél).

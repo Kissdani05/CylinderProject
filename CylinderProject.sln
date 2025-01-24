@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CylinderProject", "CylinderProject\CylinderProject.csproj", "{AA8BB2DA-5867-43E0-9A19-196DE5C0B646}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B1EB3A5-46DB-4A44-B3FD-225FED996E01}"
+	ProjectSection(SolutionItems) = preProject
+		Feladat.txt = Feladat.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCylinder", "TestCylinder\TestCylinder.csproj", "{15A802FE-B5C1-49F6-85C2-55B006CD6AC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA8BB2DA-5867-43E0-9A19-196DE5C0B646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA8BB2DA-5867-43E0-9A19-196DE5C0B646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA8BB2DA-5867-43E0-9A19-196DE5C0B646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA8BB2DA-5867-43E0-9A19-196DE5C0B646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A802FE-B5C1-49F6-85C2-55B006CD6AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A802FE-B5C1-49F6-85C2-55B006CD6AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A802FE-B5C1-49F6-85C2-55B006CD6AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A802FE-B5C1-49F6-85C2-55B006CD6AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {485D9004-3581-441C-B648-89E8DFE1C491}
+	EndGlobalSection
+EndGlobal
